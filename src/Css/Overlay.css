@@ -1,0 +1,11 @@
+.support{
+    z-index: 10000;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 4.1vw;
+    width: 10vw;
+    border: none;
+    background-color: rgba(228, 129, 253, 1);
+}
+
