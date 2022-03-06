@@ -1,0 +1,187 @@
+$base-yellow: rgb(249, 238, 178);
+$base-pink: #f7d8e5;
+$base-blue: #7bd9e6;
+
+.abhi{
+  position: fixed;
+    top:  0;
+    width: 100%;
+    z-index: 100;
+}
+.nav{
+  z-index: 1000;
+}
+
+.navbar{
+    z-index: 1000;
+    display:block !important;
+    margin-right: 0px !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+    padding-left: 40px;
+    padding-right: 0px;
+    .active >u {
+      text-decoration: none;
+      border-bottom: 4px solid #333;
+    }
+    .item{
+      float:right !important ;
+      font-family: monospace;
+      font-size: 20px;
+
+    }
+    .navbar-brand{
+      margin-left:0px !important;
+      padding: 0px;
+      margin: 0px;
+      overflow: visible !important;
+    }
+    .logo{
+      height: 50px;
+      margin-top: 0vw;
+      
+      }
+      a:hover{
+        font-size: 23px;
+        transition: 0.2s linear;
+      }
+      .navbar-brand:hover{
+        .logo{
+          height: 60px;
+        transition: 0.2s linear;
+        }
+      }
+
+
+}
+.navbar-toggler .collapsed .navbar .navbar-toggler-icon{
+  background-image: url(https://i.stack.imgur.com/mSXoO.png)!important;
+}
+
+.sup{
+    background-color: khaki;
+}
+
+
+/*Hide Scollbar*/
+::-webkit-scrollbar { 
+    display: none;  /* Chrome Safari */
+    scrollbar-width: none !important;
+    width: 0px; 
+}
+
+div {
+  scrollbar-width: none !important; /* Firefox */ 
+  -ms-overflow-style: none;  /* IE 10+ */
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.element { overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;  }
+/*Hide Scollbar*/
+
+@media (max-width: 768px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+ .logo{
+  width:auto;
+  height: 30px !important;
+ }
+ .navbar{
+
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  
+
+    .nav{
+      display: block;
+      
+    button{
+      align-items: center;
+      align-self: center;
+      justify-items: center;
+      float:right;
+      //margin-top: 14px;
+    }
+    }
+    
+ }
+
+ .navbar{
+  .item{
+align-items: center;
+text-align: center;
+float: none !important;
+font-size: 20px;
+  }
+
+}
+.contact{
+ 
+  padding-left: 0px !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+  .email{
+    
+      display: inline !important;
+      //float: left;
+      font-size: 10px;
+  
+      p{
+          padding-left: 1px;
+          margin-bottom: 1px;
+      }
+    }
+  .social{
+    align-items: center;
+      float: right !important;
+      padding-right: 0px !important;
+      display: inline-flex;
+      justify-content: space-between;
+      margin-right: 0px;
+      a{
+          color: #333;
+      svg{
+          margin-right: 1vw;
+      }
+  }
+  }
+ 
+}
+
+}
+.contact{
+  position: sticky;
+  top: 0;
+  background-color: $base-yellow;
+  padding-left: 35px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+  .email{
+      display: inline-flex;
+      float: left;
+      font-size: 12px;
+      p{
+          padding-left: 12px;
+          margin-bottom: 1px;
+          a{
+            color: #333;
+          }
+      }
+    }
+  .social{
+      float: right;
+      display: inline-flex;
+      padding-right: 5px;
+      a{
+          color: #333;
+      svg{
+          margin-right: 1vw;
+      }
+  }
+  }
+ 
+}
+

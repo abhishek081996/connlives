@@ -1,11 +1,90 @@
-.main-about{
+$base-yellow: rgb(249, 238, 178);
+$base-pink: #f7d8e5;
+$base-blue: #7bd9e6;
+$font-color:rgb(54, 54, 54);
 
-h1{
-    padding-top: 4% !important;
-    padding-bottom: 4% !important ;
-    background-color: rgb(25, 42, 56);
-    color: white;
+@keyframes slidein
+{
+0%   {margin-top: 0px;}
+50% {margin-top: -90px;}
+100% {margin-top: -180px;}
+}
+@keyframes slideout
+{
+0%   {margin-top: -180px;}
+50% {margin-top: -90px;}
+100% {margin-top: 0px;}
+}
+.main-about{
+   //background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    
+    margin-top: 100px;
+    h2{
+        font-size: 40px;
+    }
+    .box{
+        margin-top: 10px;
+        height: 180px;
+        margin-left:20px  ;
+        margin-right:20px ;
+        //width: 450px;
+        //padding: 30px;
+        border-radius: 24px;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+        -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+        box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+        overflow: hidden;
+ background-image: linear-gradient( 135deg, #F1CA74 10%, #A64DB6 100%);
+    .title{
+        font-size: 25px;
+        padding-top:0px ;
+        height:180px;
+        margin-top:0px;
+        line-height: 55px;
+        animation: slideout 0.5s linear forwards;
+        //vertical align
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .content{
+        font-size: 18px;
+        height: 180px;
+        padding: 20px;
+        font-style: italic;
+        //vertical align
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column
+    }      
+    }
+
+    .box:hover{
+        transition: all 0.5s ease-in ;
+        .title{
+        animation: slidein 0.5s linear forwards;
+          margin-top: -180px;
+        }
+        .content{
+            font-size: 18px;
+            height: 180px;
+        } 
+    }
+    .card{
+        border: none;
+        height: 210px;
+        margin: 0px;
+    }
+
+
 }
 
+@media (max-width: 768px) {
+    .main-about{
+        //background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+         
+         margin-top: 120px;}
 
 }

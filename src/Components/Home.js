@@ -5,11 +5,7 @@ import {useSelector,useDispatch} from 'react-redux';
 import {bindActionCreators} from "redux";
 import {actioncreator} from "../State/index";
 import { setState } from '../State/action-creators';
-import logo from '../Assets/logo.png';
 import  c1 from '../Assets/c1.png';
-import  c2 from '../Assets/c2.jpg';
-import  c3 from '../Assets/c4.jpg';
-import  c4 from '../Assets/c3.jpg';
 
 import {Carousel, Container, NavDropdown, Row, Form,Nav,Col } from "react-bootstrap";
 
@@ -28,11 +24,11 @@ function Home() {
         <Row> 
         <Col md={4} xs={12} className='links-pad'   >
         <div className='links1'>
-        <a href=''>Our Goals</a></div>
+        <a href=''>Goals</a></div>
         </Col>
         <Col md={4} xs={12} className='links-pad'  >
         <div className='links2'>
-        <a href=''>Our Objective</a></div>
+        <a href=''>Objective</a></div>
         </Col>
         <Col md={4} xs={12} className='links-pad'  >
         <div className='links3'>
@@ -40,27 +36,29 @@ function Home() {
        </Col>
         </Row>
         </div>
-        <div className='ctl'>Connecting Lives <br/>
+        <div className='ctl'>
 <span  className='ngo'>An NGO registered under Niti Ayog with Id.DL/2019/0244002</span>
 </div>
 
-        <div className='motto'>I am the motto of connecting lives</div>
+        <div className='motto'>"Be someone's light <br/> when they are hopeless." </div>
         <div className='text-field1'>Some text goes here.</div>
         <div>
             <Row className='support-row'>
-                <Col md={5} xs={12} className='links-pad'>
-                   <div className='image-supp'> <img src={c1} ></img></div>
-                </Col>
-                <Col md={7} xs={12} className='links-pad'>
+                <Col md={4} xs={12} className='links-pad'></Col>
+                   
+                
+                <Col md={4} xs={12} className='links-pad'></Col>
+                <Col md={4} xs={12} className='links-pad'>
                     <div className='support-key'>
                         <h3><a href=''>Join Us</a></h3>
                         <p>Enlighten and Educate</p>
                     </div>
                     
                 </Col>
+                
             </Row>
         </div>
-        <div>
+        {false && <div>
             <Row className='footer' >
                 <Col md={4} xs={12} className='footer1'>
                     <div>
@@ -85,7 +83,7 @@ function Home() {
                 <a>Contact</a></div>
                 </Col>
             </Row>
-        </div>
+        </div>}
         <div className="disclaimer">
             This wesbsite is created and maintained by Connecting lives<span>©</span> 
         </div>

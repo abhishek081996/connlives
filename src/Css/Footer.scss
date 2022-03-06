@@ -1,0 +1,30 @@
+$base-yellow: rgb(249, 238, 178);
+$base-pink: #f7d8e5;
+$base-blue: #7bd9e6;
+
+
+.disclaimer{
+    background-color:#000000;
+    color: rgb(95, 95, 95);
+    font-size: 0.7vw;
+    padding: 0vw 0vw 0.1vw 0vw;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    span{
+      font-size: 0.4vw;
+      vertical-align: super;
+    }}
+ 
+    
+    @media(max-width: 800px){
+
+        .disclaimer{
+            font-size: 2vw;
+            padding: 0vw 0vw 0.1vw 0vw;
+            span{
+              font-size: 1vw;
+              vertical-align: super;
+            }}
+          
+    }

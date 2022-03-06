@@ -1,0 +1,22 @@
+{
+  "card":[{
+      "header":"Objectives",
+      "cards":[
+        {"key":"SENITISATION",
+        "content":"To develop community sensitization and mobilisation among people towards our lives, the state of our society and Nature."},
+        {"key":"CO-OPERATION",
+        "content":"To reinforce the ideal of cooperation between the resourceful and inept, marginalised and privileged, skilled and unskilled."},
+        {"key":"INCLUSION",
+        "content":"To promote the principle of inclusion of the isolated, underprivileged and specially abled children."}
+      ]
+  } ,{"header":"Goals",
+    "cards":[
+      {"key":"Health & Nutrition",
+      "content":"Educating and providing children with diet and regular health checkups along with mental and physical exercise regularly."},
+      {"key":"Society & Nature",
+      "content":"Striving to create Awareness on social issues and maintain the nature around us."},
+      {"key":"Education & Empowerment",
+      "content":"Aimed at educating and bridging the gap between skilled individuals and under-privileged children and adults."}
+    ]}]     
+    
+}

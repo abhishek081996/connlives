@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eeafbd4e.css",
+    "main.js": "/static/js/main.e1869687.js",
+    "static/js/787.93ad0867.chunk.js": "/static/js/787.93ad0867.chunk.js",
+    "static/media/c1.png": "/static/media/c1.bb0dc46073528852403c.png",
+    "static/media/c4.jpg": "/static/media/c4.1828c47f06f7b4f770db.jpg",
+    "static/media/bank.png": "/static/media/bank.0d506085b76c68b78edf.png",
+    "static/media/stationary.png": "/static/media/stationary.b89d61b5b15d5ee3a9fc.png",
+    "static/media/home.jpg": "/static/media/home.cf0260baa64a4af70d21.jpg",
+    "static/media/c3.jpg": "/static/media/c3.5b0ddf155a6b2d3090d4.jpg",
+    "static/media/helpingteam.png": "/static/media/helpingteam.3fb0131e8787db0da75a.png",
+    "static/media/delhi.png": "/static/media/delhi.647e426fdf582b087c60.png",
+    "static/media/logo2.png": "/static/media/logo2.21e5b8c79b53e62aef7b.png",
+    "static/media/donate.jpg": "/static/media/donate.8eba49d274a50f1ab3bc.jpg",
+    "static/media/fund.jpg": "/static/media/fund.896a5cea2e0ab4509779.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.eeafbd4e.css.map": "/static/css/main.eeafbd4e.css.map",
+    "main.e1869687.js.map": "/static/js/main.e1869687.js.map",
+    "787.93ad0867.chunk.js.map": "/static/js/787.93ad0867.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeafbd4e.css",
+    "static/js/main.e1869687.js"
+  ]
+}
